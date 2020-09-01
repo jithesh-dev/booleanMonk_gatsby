@@ -1,0 +1,41 @@
+/* About */
+
+.about-grid {
+  display: grid;
+  grid-template-areas:
+    "title"
+    "ppic"
+    "a-content";
+  gap: 50px;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+
+.prof-pic-container {
+  grid-area: ppic;
+  width: max-content;
+  border: 1px solid var(--clr-text);
+}
+.prof-pic-container img {
+  width: 100%;
+  max-width: 300px;
+  transform: translate(10px, -10px);
+}
+
+.about-expander {
+  grid-area: title;
+}
+
+.a-content {
+  grid-area: a-content;
+}
+
+@media only screen and (min-width: 1200px) {
+  .about-grid {
+    grid-template-areas:
+      "title title"
+      "ppic a-content";
+    justify-items: left;
+  }
+}
