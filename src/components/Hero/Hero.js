@@ -15,7 +15,7 @@ function Hero() {
           <h3 className="sub-title animate__animated animate__bounceInLeft">
             YOU HAVE FOUND YOUR NEW DESIGNER!
           </h3>
-          <Link href="#" className="h-cta btn ">
+          <Link href="#contact" className="h-cta btn ">
             Get in Touch
           </Link>
         </div>

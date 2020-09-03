@@ -1,0 +1,12 @@
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.project-container .op-tile {
+  border-radius: 5px;
+  width: 300px;
+  margin: 1em;
+  cursor: pointer;
+}

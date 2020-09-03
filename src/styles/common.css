@@ -92,6 +92,7 @@ ul {
 .btn:hover {
   color: var(--clr-bg-dark);
   background-color: var(--clr-accent);
+  font-weight: 600;
 }
 .btn svg {
   margin-right: 10px;

@@ -1,6 +1,7 @@
 import React from "react"
 import ArteMockup from "../../assets/images/arte-mockup.png"
 import "./Featured.css"
+import { Link } from "gatsby"
 
 function Featured() {
   return (
@@ -27,9 +28,10 @@ function Featured() {
               <li>FRONT END DEVELOPMENT</li>
               <li>WORDPRESS THEME CONVERSION</li>
             </ul>
-            <a href="#" className="btn">
+
+            <Link to="#" className="btn">
               VIEW PROJECT
-            </a>
+            </Link>
           </div>
         </div>
       </div>
