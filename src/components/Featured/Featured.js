@@ -1,7 +1,13 @@
 import React from "react"
-import ArteMockup from "../../assets/images/arte-mockup.png"
+// import ArteMockup from "../../assets/images/arte-mockup.png"
 import "./Featured.css"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
+import ProjectTile from "../ProjectTile/ProjectTile"
+import Carousel from "react-elastic-carousel"
+import ArteMockup from "../../assets/images/featured/arte-mockup.png"
+import BooleanMockup from "../../assets/images/featured/boolean_monk_mobile.png"
+import sockitupMockup from "../../assets/images/featured/Sockit-up_mockup_web.jpg"
+import amazonMockup from "../../assets/images/featured/amazone_clone.jpg"
 
 function Featured() {
   return (
@@ -11,29 +17,28 @@ function Featured() {
       </div>
       <h5 className="section-headings">FEATURED PROJECTS</h5>
       <div className="project-container">
-        <div className="p-tile">
-          <h4 className="p-title">
-            <span>01</span>ARTE MUSICA
-          </h4>
-          <img className="p-img" src={ArteMockup} alt="" />
-          <div className="tile-content">
-            <p>
-              I design and pilot web projects. I am committed to making
-              innovation accessible to all and building an ethical technology.I
-              design and pilot web projects. I am committed to making innovation
-              accessible to all and building an ethical technology.
-            </p>
-            <ul className="highlight">
-              <li>UI / UX DESIGN</li>
-              <li>FRONT END DEVELOPMENT</li>
-              <li>WORDPRESS THEME CONVERSION</li>
-            </ul>
-
-            <Link to="#" className="btn">
-              VIEW PROJECT
-            </Link>
-          </div>
-        </div>
+        <Carousel pagination={false} className="div-carousel">
+          <ProjectTile
+            counter="01"
+            image={ArteMockup}
+            projectTitle="Arte Musica"
+          />
+          <ProjectTile
+            counter="02"
+            image={BooleanMockup}
+            projectTitle="Boolean Monk"
+          />
+          <ProjectTile
+            counter="03"
+            image={sockitupMockup}
+            projectTitle="Sock It Up"
+          />
+          <ProjectTile
+            counter="04"
+            image={amazonMockup}
+            projectTitle="Amazon Clone"
+          />
+        </Carousel>
       </div>
     </div>
   )

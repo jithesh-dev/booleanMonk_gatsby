@@ -42,12 +42,13 @@
   line-height: 1em;
   margin-bottom: 0px;
   position: relative;
+  /* transform: translateY(-30px); */
 }
 .hero-title::before {
   position: absolute;
   z-index: -1;
   content: "";
-  top: -60%;
+  top: -30%;
   right: -2%;
   height: 35vw;
   width: 35vw;

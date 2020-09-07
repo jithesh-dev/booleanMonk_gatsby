@@ -1,21 +1,41 @@
-import React from "react"
+import React, { useRef, useEffect } from "react"
 import { Link } from "gatsby"
 import Monk from "../../assets/svg/monk.svg"
 import "./Hero.css"
+import { TimelineLite } from "gsap"
 
 function Hero() {
+  let content = useRef(null)
+  let tl = new TimelineLite()
+
+  useEffect(() => {
+    tl.from(content.children[0], {
+      delay: 0.5,
+      duration: 1.5,
+      height: 0,
+      opacity: 0,
+      ease: "expo.inOut",
+    })
+  }, [content])
+
   return (
     <>
       <div className="hero-grid">
         <div className="monk-illustration">
           <img src={Monk} alt="" className="monk " />
         </div>
-        <div className="hero-content">
-          <h1 className="hero-title ">Be At Peace</h1>
+        <div
+          ref={item => {
+            content = item
+          }}
+          className="hero-content"
+        >
+          <h1 className="hero-title">Be At Peace</h1>
+
           <h3 className="sub-title animate__animated animate__bounceInLeft">
             YOU HAVE FOUND YOUR NEW DESIGNER!
           </h3>
-          <Link href="#contact" className="h-cta btn ">
+          <Link to="#contact" className="h-cta btn ">
             Get in Touch
           </Link>
         </div>

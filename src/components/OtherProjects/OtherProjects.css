@@ -1,12 +1,18 @@
 .project-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  /* gap: 20px; */
   justify-content: center;
 }
 .project-container .op-tile {
   border-radius: 5px;
   width: 300px;
+  height: 230px;
+  object-fit: cover;
   margin: 1em;
   cursor: pointer;
+  transition: transform 0.2s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+.project-container .op-tile:hover {
+  transform: scale(1.03);
 }

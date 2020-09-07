@@ -1,9 +1,9 @@
 import React from "react"
 import "./OtherProjects.css"
-import otherworks_01 from "../../assets/images/other_works/otherworks_01.png"
+import otherworks_01 from "../../assets/images/other_works/otherworks_01.jpg"
 import otherworks_02 from "../../assets/images/other_works/otherworks_02.jpg"
-import otherworks_03 from "../../assets/images/other_works/otherworks_03.png"
-import otherworks_04 from "../../assets/images/other_works/otherworks_01.png"
+import otherworks_03 from "../../assets/images/other_works/otherworks_03.jpg"
+import otherworks_04 from "../../assets/images/other_works/otherworks_04.jpg"
 import otherworks_05 from "../../assets/images/other_works/otherworks_05.png"
 import otherworks_06 from "../../assets/images/other_works/otherworks_06.png"
 import otherworks_07 from "../../assets/images/other_works/otherworks_07.png"
@@ -21,8 +21,8 @@ function OtherProjects() {
   return (
     <div className="o-projects-grid section container">
       <h5 className="section-headings">OTHER PROJECTS</h5>
-      <div className="project-container">
-        <SRLWrapper options={options}>
+      <SRLWrapper options={options}>
+        <div className="project-container">
           <img src={otherworks_01} alt="" className="op-tile" />
 
           <img src={otherworks_02} alt="" className="op-tile" />
@@ -40,8 +40,8 @@ function OtherProjects() {
           <img src={otherworks_08} alt="" className="op-tile" />
 
           <img src={otherworks_09} alt="" className="op-tile" />
-        </SRLWrapper>
-      </div>
+        </div>
+      </SRLWrapper>
     </div>
   )
 }

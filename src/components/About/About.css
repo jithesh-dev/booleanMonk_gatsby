@@ -10,6 +10,7 @@
   justify-items: center;
   align-items: center;
   position: relative;
+  margin-top: 100px;
 }
 
 .prof-pic-container {
@@ -25,6 +26,7 @@
 
 .about-expander {
   grid-area: title;
+  line-height: 1;
 }
 
 .a-content {
