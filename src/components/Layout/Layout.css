@@ -4,32 +4,6 @@
 /* body {
   background-color: var(--clr-bg-dark);
 } */
-/* .topBtn {
-  background-color: var(--clr-accent);
-  height: 50px;
-  width: 50px;
-  padding: 20px;
-  border-radius: 50%;
-  display: flex;
-  position: fixed;
-  bottom: -10%;
-  right: 5%;
-  justify-content: center;
-  align-items: center;
-  color: black;
-  font-weight: bold;
-
-  cursor: pointer;
-  text-decoration: none;
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
-  box-shadow: 2px 5px 15px rgba(105, 105, 105, 0.315);
-}
-
-.show {
-  opacity: 1;
-  bottom: 8%;
-} */
 
 .reveal {
   position: fixed;
