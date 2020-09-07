@@ -5,18 +5,10 @@ import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
 import { Link } from "gatsby"
 import { TweenMax } from "gsap"
+import ScrollToTop from "../ScrollToTop/ScrollToTop"
 
 function Layout(props) {
   let reveal = useRef(null)
-  const [showScroll, setShowScroll] = useState(false)
-  const checkScrollTop = () => {
-    if (!showScroll && window.pageYOffset > 400) {
-      setShowScroll(true)
-    } else if (showScroll && window.pageYOffset <= 400) {
-      setShowScroll(false)
-    }
-  }
-  window.addEventListener("scroll", checkScrollTop)
 
   useEffect(() => {
     TweenMax.to(reveal, { duration: 1.5, height: 0, ease: "expo.inOut" })
@@ -35,10 +27,7 @@ function Layout(props) {
         <Header />
         {props.children}
         <Footer />
-
-        <Link to="#top" className={`topBtn ${showScroll && "show"}`}>
-          Top
-        </Link>
+        <ScrollToTop showBelow={400} />
       </div>
     </div>
   )
