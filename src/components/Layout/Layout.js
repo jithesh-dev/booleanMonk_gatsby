@@ -1,9 +1,8 @@
-import React, { useState, useRef, useEffect } from "react"
+import React, { useRef, useEffect } from "react"
 import "../../styles/common.css"
 import "./Layout.css"
 import Header from "../Header/Header"
 import Footer from "../Footer/Footer"
-import { Link } from "gatsby"
 import { TweenMax } from "gsap"
 import ScrollToTop from "../ScrollToTop/ScrollToTop"
 

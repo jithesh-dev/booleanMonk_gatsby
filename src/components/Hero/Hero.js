@@ -16,7 +16,7 @@ function Hero() {
       opacity: 0,
       ease: "expo.inOut",
     })
-  }, [content])
+  }, [content, tl])
 
   return (
     <>

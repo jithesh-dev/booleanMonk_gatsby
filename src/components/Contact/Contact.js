@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./Contact.css"
-import { Link } from "gatsby"
+
 function Contact() {
   const [formState, setFormState] = useState({
     name: "",

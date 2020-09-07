@@ -44,17 +44,6 @@
   position: relative;
   /* transform: translateY(-30px); */
 }
-.hero-title::before {
-  position: absolute;
-  z-index: -1;
-  content: "";
-  top: -30%;
-  right: -2%;
-  height: 35vw;
-  width: 35vw;
-  border-radius: 50%;
-  border: 1px solid var(--clr-bg-light);
-}
 
 .sub-title {
   font-size: 1rem;
@@ -158,6 +147,17 @@
 
   .hero-title {
     font-size: var(--hero-text-sz);
+  }
+  .hero-title::before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    top: -30%;
+    right: -2%;
+    height: 35vw;
+    width: 35vw;
+    border-radius: 50%;
+    border: 1px solid var(--clr-bg-light);
   }
   .sub-title {
     font-size: var(--hero-sb-txt-sz);
