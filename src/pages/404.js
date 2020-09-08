@@ -1,15 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
-
+import monster from "../assets/images/404_monster.svg"
 import Layout from "../components/Layout/Layout"
-
+import "./404.css"
 const NotFound = () => {
   return (
     <Layout>
-      <h1>Page not found</h1>
-      <p>
+      <div className="monsterContainer">
+        <img src={monster} alt="" />
+      </div>
+      {/* <p>
         <Link to="/">Head home</Link>
-      </p>
+      </p> */}
     </Layout>
   )
 }

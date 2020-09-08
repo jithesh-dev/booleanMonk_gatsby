@@ -1,0 +1,9 @@
+.monsterContainer {
+  display: flex;
+  justify-content: center;
+  margin: 137px 0;
+}
+
+.monsterContainer img {
+  width: 500px;
+}

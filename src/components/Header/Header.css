@@ -7,9 +7,10 @@
   justify-content: space-between;
 }
 .navbar .logo {
-  min-height: 50px;
+  /* min-height: 50px;
   height: 100%;
-  max-height: 70px;
+  max-height: 70px; */
+  height: 70px;
 }
 
 .nav {

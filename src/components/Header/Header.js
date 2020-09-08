@@ -8,15 +8,17 @@ function Header() {
   return (
     <div className="header">
       <div className="navbar">
-        <img className="logo" src={Logo} alt="" />
+        <Link to="/">
+          <img className="logo" src={Logo} alt="" />
+        </Link>
         <nav className="nav">
-          <Link to="#about" className="nav__link">
+          <Link to="/#about" className="nav__link">
             about
           </Link>
-          <Link to="#works" className="nav__link">
+          <Link to="/#works" className="nav__link">
             works
           </Link>
-          <Link to="#contact" className="nav__link">
+          <Link to="/#contact" className="nav__link">
             contact
           </Link>
         </nav>

@@ -6,10 +6,12 @@ import Featured from "../components/Featured/Featured"
 import OtherProjects from "../components/OtherProjects/OtherProjects"
 import Contact from "../components/Contact/Contact"
 import SimpleReactLightbox from "simple-react-lightbox"
+import Head from "../components/Head/Head"
 export default function Home() {
   return (
     <div className="homePage">
       <Layout>
+        <Head title="Home" />
         <SimpleReactLightbox>
           <Hero />
           <About />

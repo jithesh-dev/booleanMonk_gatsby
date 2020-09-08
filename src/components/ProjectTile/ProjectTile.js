@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import "./ProjectTile.css"
 function ProjectTile({ counter, image, projectTitle }) {
   return (
@@ -25,9 +25,9 @@ function ProjectTile({ counter, image, projectTitle }) {
           <li>WORDPRESS THEME CONVERSION</li>
         </ul>
 
-        <Link to="#" className="btn">
+        {/* <Link to="#" className="btn">
           VIEW PROJECT
-        </Link>
+        </Link> */}
       </div>
     </div>
   )
