@@ -25,10 +25,14 @@
   content: "";
   background-color: var(--clr-accent);
 }
+@media only screen and (min-width: 1600px) {
+  .p-tile {
+    width: 70vw;
+  }
+}
 
 @media only screen and (min-width: 1200px) {
   .p-tile {
-    width: 70vw;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 100px auto;
