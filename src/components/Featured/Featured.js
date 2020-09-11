@@ -1,13 +1,12 @@
 import React from "react"
-// import ArteMockup from "../../assets/images/arte-mockup.png"
 import "./Featured.css"
 // import { Link } from "gatsby"
 import ProjectTile from "../ProjectTile/ProjectTile"
 import Carousel from "react-elastic-carousel"
-import ArteMockup from "../../assets/images/featured/arte-mockup.png"
-import BooleanMockup from "../../assets/images/featured/boolean_monk_mobile.png"
-import sockitupMockup from "../../assets/images/featured/Sockit-up_mockup_web.jpg"
-import amazonMockup from "../../assets/images/featured/amazone_clone.jpg"
+import ArteMockup from "../../assets/images/featured/arte-mockup.webp"
+import BooleanMockup from "../../assets/images/featured/boolean_monk_mobile.webp"
+import sockitupMockup from "../../assets/images/featured/Sockit-up_mockup_web.webp"
+import amazonMockup from "../../assets/images/featured/amazone_clone.webp"
 
 function Featured() {
   return (
