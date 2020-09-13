@@ -6,8 +6,7 @@
 }
 .project-container .op-tile {
   border-radius: 5px;
-  width: 300px;
-  height: 230px;
+
   object-fit: cover;
   margin: 1em;
   cursor: pointer;
@@ -15,4 +14,10 @@
 }
 .project-container .op-tile:hover {
   transform: scale(1.03);
+}
+@media only screen and (min-width: 1200px) {
+  .project-container .op-tile {
+    width: 300px;
+    height: 230px;
+  }
 }
