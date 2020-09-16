@@ -25,5 +25,16 @@
 }
 .show {
   opacity: 1;
-  bottom: 8%;
+  bottom: 80px;
+}
+
+.topBtn svg {
+  height: 11px;
+  transform: scale(1.2);
+}
+
+@media only screen and (min-width: 1200px) {
+  .show {
+    bottom: 80px;
+  }
 }
