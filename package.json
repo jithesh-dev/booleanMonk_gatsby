@@ -14,8 +14,13 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+<<<<<<< HEAD
     "gatsby": "^2.27.0",
     "gatsby-plugin-netlify-cms": "^4.5.0",
+=======
+    "gatsby": "^2.24.50",
+    "gatsby-cli": "^2.12.95",
+>>>>>>> 28cf75ec347a6eb801178a905104bcb5c1a14960
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gsap": "^3.5.1",
     "netlify-cms-app": "^2.13.3",

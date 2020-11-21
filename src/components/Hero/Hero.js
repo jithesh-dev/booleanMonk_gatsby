@@ -8,15 +8,15 @@ function Hero() {
   let content = useRef(null)
   let tl = new TimelineLite()
 
-  useEffect(() => {
-    tl.from(content.children[0], {
-      delay: 0.5,
-      duration: 1.5,
-      height: 0,
-      opacity: 0,
-      ease: "expo.inOut",
-    })
-  }, [content, tl])
+  // useEffect(() => {
+  //   tl.from(content.children[0], {
+  //     delay: 0.5,
+  //     duration: 1.5,
+  //     height: 0,
+  //     opacity: 0,
+  //     ease: "expo.inOut",
+  //   })
+  // }, [content, tl])
 
   return (
     <>
@@ -33,7 +33,7 @@ function Hero() {
           <h1 className="hero-title">Be At Peace</h1>
 
           <h3 className="sub-title animate__animated animate__bounceInLeft">
-            YOU HAVE FOUND YOUR NEW DESIGNER!
+            YOU HAVE FOUND YOUR NEW WEB PARTNER!
           </h3>
           <Link to="#contact" className="h-cta btn ">
             Get in Touch
@@ -41,8 +41,7 @@ function Hero() {
         </div>
         <div className="intro-text-wrapper">
           <p className="intro-text highlight">
-            I design and pilot web projects. I am committed to making innovation
-            accessible to all and building an ethical technology.
+            Full stack developer with an eye for clean design.
           </p>
         </div>
         <span className="scroll-text">SCROLL</span>
