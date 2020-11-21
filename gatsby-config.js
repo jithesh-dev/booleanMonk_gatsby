@@ -13,5 +13,5 @@ module.exports = {
       "Hello, I am Jithesh Kumar, Creative front end software developer and data driven user experiance designer.",
     url: "http://www.booleanmonk.com",
   },
-  plugins: ["gatsby-plugin-react-helmet"],
+  plugins: ["gatsby-plugin-react-helmet",`gatsby-plugin-netlify-cms`],
 }
