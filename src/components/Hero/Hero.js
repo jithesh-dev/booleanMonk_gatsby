@@ -41,7 +41,7 @@ function Hero() {
         </div>
         <div className="intro-text-wrapper">
           <p className="intro-text highlight">
-            Full stack developer with an eye for clean design.
+            Get a Free Consultation (because who doesn't love free stuff?)
           </p>
         </div>
         <span className="scroll-text">SCROLL</span>

@@ -33,9 +33,15 @@ function Contact() {
       <div className="contact-container">
         <h5 className="section-headings highlight">WANT TO WORK TOGATHER?</h5>
         <p>
-          I'm always happy to work on/take a look at interesting projects. You
-          can ping me a quick mail here or learn more about me with the links
-          below.
+          So, if you're ready to take your brand to the next level (and have a
+          little fun along the way), get in touch with us today. We promise to
+          make your digital dreams come true (and maybe crack a few jokes while
+          we're at it).
+        </p>
+        <p>
+          We're always happy to work on/take a look at interesting projects.
+          Drop us a line and let's chat about how we can help you reach your
+          digital goals.
         </p>
 
         <form

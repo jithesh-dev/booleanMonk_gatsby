@@ -18,6 +18,7 @@
   width: max-content;
   border: 1px solid var(--clr-text);
 }
+
 .prof-pic-container img {
   width: 100%;
   max-width: 300px;
@@ -31,6 +32,7 @@
 
 .a-content {
   grid-area: a-content;
+  max-width: 500px;
 }
 
 @media only screen and (min-width: 1200px) {

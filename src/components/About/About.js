@@ -5,33 +5,28 @@ import "./About.css"
 function About() {
   return (
     <div id="about" className="about-grid section container sub-container">
-      <h1 className="about-expander expander">ABOUT ME</h1>
+      <h1 className="about-expander expander">ABOUT US</h1>
 
       <div className="prof-pic-container">
         <img src={ProfilePic} alt="" />
       </div>
       <div className="a-content">
-        <h5 className="section-headings">JITHESH KUMAR</h5>
+        <h5 className="section-headings">
+          We unleash your digital awesomeness
+        </h5>
         <p>
-          A Creative Freelance Full Stack Developer / Designer with 9+ years of
-          industry experince with a passion for interactive design and
-          development. I am currently based in Nottingham working on freelance
-          web projects.
+          At Digital Web Consulting, we're a squad of digital ninjas who live
+          and breathe all things digital. We don't just build websites or run
+          campaigns, we craft digital experiences that make your audience go
+          "wow". We believe that every brand has a unique digital awesomeness
+          waiting to be unleashed, and we're here to make that happen.
         </p>
         <p>
-          During my early years, I was working as a Senior Test Engineer (Team
-          Lead) for the biggest IT Company in India. Out of passion for coding,
-          I moved on to freelancing web projects and started my development
-          career in Laravel and Mysql. Since 2016, I have worked on various web
-          technologies like - React, Gatsby, Django, Node, MySQL, Postgres and
-          the list goes on. I have had to work across multiple roles including
-          Backend development, Front End development and UI/UX design but
-          lately, my interest has gotten more to do with interactive design and
-          front-end implementation specializing in React.
-        </p>
-        <p>
-          I am also a professional photographer specializing in weddings and
-          have tried playing around with portrait photography.
+          Our team of experts are not your typical boring consultants. We're
+          creative, witty, and a little bit quirky. We're not afraid to push
+          boundaries and take risks to make your brand stand out. We're not just
+          a team, we're a digital family, and we're committed to making your
+          digital dreams come true.
         </p>
       </div>
     </div>
